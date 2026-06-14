@@ -1,0 +1,86 @@
+import { Property } from './types';
+
+export const featuredProperties: Property[] = [
+  {
+    id: '1',
+    title: 'Lodha Woods',
+    location: 'Kandivali East, Mumbai',
+    price: '₹ 1.85 Cr',
+    type: 'Buy',
+    bhk: '3 BHK',
+    area: '1,150 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&q=80&w=1000',
+    isVerified: true,
+    tags: ['Ready to Move', 'Vastu Compliant'],
+  },
+  {
+    id: '2',
+    title: 'Rustomjee Crown',
+    location: 'Prabhadevi, Mumbai',
+    price: '₹ 3.5 L /mo',
+    type: 'Rent',
+    bhk: '4 BHK',
+    area: '2,500 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&q=80&w=1000',
+    isVerified: true,
+    tags: ['Sea View', 'Luxury Amenities'],
+  },
+  {
+    id: '3',
+    title: 'Lodha Altamount',
+    location: 'Altamount Road, South Mumbai',
+    price: '₹ 45.0 Cr',
+    type: 'Buy',
+    bhk: '5 BHK',
+    area: '4,200 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1000',
+    isVerified: false,
+    tags: ['Ultra Luxury', 'Billionaires Row'],
+  },
+  {
+    id: '4',
+    title: 'Godrej Emerald',
+    location: 'Thane West, MMR',
+    price: '₹ 1.15 Cr',
+    type: 'Buy',
+    bhk: '2 BHK',
+    area: '820 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&q=80&w=1000',
+    isVerified: true,
+    tags: ['Under Construction', 'Forest View'],
+  },
+  {
+    id: '5',
+    title: 'Hiranandani Gardens',
+    location: 'Powai, Mumbai',
+    price: '₹ 95,000 /mo',
+    type: 'Rent',
+    bhk: '3 BHK',
+    area: '1,450 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&q=80&w=1000',
+    isVerified: true,
+    tags: ['Township', 'Lake View'],
+  },
+  {
+    id: '6',
+    title: 'Oberoi Sky City',
+    location: 'Borivali East, Mumbai',
+    price: '₹ 3.2 Cr',
+    type: 'Buy',
+    bhk: '3 BHK',
+    area: '1,350 sq.ft',
+    imageUrl: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1000',
+    isVerified: true,
+    tags: ['Ready to Move', 'Premium Club'],
+  }
+];
+
+export const popularLocalities = [
+  { name: 'Bandra West', image: 'https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&q=80&w=300' },
+  { name: 'South Mumbai', image: 'https://images.unsplash.com/photo-1529253355930-ddbe4e17348b?auto=format&fit=crop&q=80&w=300' },
+  { name: 'Andheri West', image: 'https://images.unsplash.com/photo-1587474260580-08c352da3491?auto=format&fit=crop&q=80&w=300' },
+  { name: 'Powai', image: 'https://images.unsplash.com/photo-1552524419-f0278fb1add4?auto=format&fit=crop&q=80&w=300' },
+  { name: 'Juhu', image: 'https://images.unsplash.com/photo-1599839619722-39751411ea63?auto=format&fit=crop&q=80&w=300' },
+  { name: 'Worli', image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?auto=format&fit=crop&q=80&w=300' }
+];
+

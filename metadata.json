@@ -1,0 +1,6 @@
+{
+  "name": "Nick Property",
+  "description": "Mumbai's premier real estate platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
